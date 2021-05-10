@@ -1,0 +1,38 @@
+# CMake generated Testfile for 
+# Source directory: /home/wyf/Desktop/wyf_vs/leveldb
+# Build directory: /home/wyf/Desktop/wyf_vs/leveldb
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(c_test "/home/wyf/Desktop/wyf_vs/leveldb/c_test")
+add_test(fault_injection_test "/home/wyf/Desktop/wyf_vs/leveldb/fault_injection_test")
+add_test(issue178_test "/home/wyf/Desktop/wyf_vs/leveldb/issue178_test")
+add_test(issue200_test "/home/wyf/Desktop/wyf_vs/leveldb/issue200_test")
+add_test(issue320_test "/home/wyf/Desktop/wyf_vs/leveldb/issue320_test")
+add_test(env_test "/home/wyf/Desktop/wyf_vs/leveldb/env_test")
+add_test(status_test "/home/wyf/Desktop/wyf_vs/leveldb/status_test")
+add_test(no_destructor_test "/home/wyf/Desktop/wyf_vs/leveldb/no_destructor_test")
+add_test(autocompact_test "/home/wyf/Desktop/wyf_vs/leveldb/autocompact_test")
+add_test(corruption_test "/home/wyf/Desktop/wyf_vs/leveldb/corruption_test")
+add_test(db_test "/home/wyf/Desktop/wyf_vs/leveldb/db_test")
+add_test(dbformat_test "/home/wyf/Desktop/wyf_vs/leveldb/dbformat_test")
+add_test(filename_test "/home/wyf/Desktop/wyf_vs/leveldb/filename_test")
+add_test(log_test "/home/wyf/Desktop/wyf_vs/leveldb/log_test")
+add_test(recovery_test "/home/wyf/Desktop/wyf_vs/leveldb/recovery_test")
+add_test(skiplist_test "/home/wyf/Desktop/wyf_vs/leveldb/skiplist_test")
+add_test(version_edit_test "/home/wyf/Desktop/wyf_vs/leveldb/version_edit_test")
+add_test(version_set_test "/home/wyf/Desktop/wyf_vs/leveldb/version_set_test")
+add_test(write_batch_test "/home/wyf/Desktop/wyf_vs/leveldb/write_batch_test")
+add_test(memenv_test "/home/wyf/Desktop/wyf_vs/leveldb/memenv_test")
+add_test(filter_block_test "/home/wyf/Desktop/wyf_vs/leveldb/filter_block_test")
+add_test(table_test "/home/wyf/Desktop/wyf_vs/leveldb/table_test")
+add_test(arena_test "/home/wyf/Desktop/wyf_vs/leveldb/arena_test")
+add_test(bloom_test "/home/wyf/Desktop/wyf_vs/leveldb/bloom_test")
+add_test(cache_test "/home/wyf/Desktop/wyf_vs/leveldb/cache_test")
+add_test(coding_test "/home/wyf/Desktop/wyf_vs/leveldb/coding_test")
+add_test(crc32c_test "/home/wyf/Desktop/wyf_vs/leveldb/crc32c_test")
+add_test(hash_test "/home/wyf/Desktop/wyf_vs/leveldb/hash_test")
+add_test(logging_test "/home/wyf/Desktop/wyf_vs/leveldb/logging_test")
+add_test(env_posix_test "/home/wyf/Desktop/wyf_vs/leveldb/env_posix_test")
+subdirs("third_party/googletest")
+subdirs("third_party/benchmark")
